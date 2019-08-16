@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.etc.dao.ScoreDaoMapper">
+	<!-- 查询成绩列表 -->
+	<select id="listScore" resultType="score">
+		select * from score
+	</select>
+	
+	<!-- 添加学生考试信息 -->
+	<insert id="addScore" parameterType="score">
+		INSERT INTO score VALUES (DEFAULT,#{name},#{number},#{chinese},#{english},#{math},#{science});	
+	</insert>
+	
+</mapper>
+

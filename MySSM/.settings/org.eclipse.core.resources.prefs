@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//resources/log4j.properties=UTF-8
+encoding//src/com/etc/controller/UserController.java=GBK
+encoding//src/com/etc/entity/User.java=UTF-8
+encoding//src/com/etc/interceptor/SysInterceptor.java=UTF-8
+encoding//src/com/etc/tools/Constants.java=UTF-8
+encoding//src/com/etc/tools/PageSupport.java=UTF-8
+encoding//src/com/etc/tools/StringToDateConverter.java=UTF-8
